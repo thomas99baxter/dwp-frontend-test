@@ -5,7 +5,8 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "lint": "eslint ."
   },
   "engines": {
     "node": ">=18.0.0"
