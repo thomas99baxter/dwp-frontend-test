@@ -5,7 +5,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "mocha 'test/**/*.js' --recursive --timeout 60000 --exit",
     "lint": "eslint ."
   },
   "engines": {
@@ -23,6 +23,9 @@
   "homepage": "https://github.com/thomas99baxter/dwp-frontend-test#readme",
   "devDependencies": {
     "@dwp/eslint-config-base": "^7.0.0",
-    "eslint": "^8.52.0"
+    "chai": "^4.3.10",
+    "eslint": "^8.52.0",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.0"
   }
 }
