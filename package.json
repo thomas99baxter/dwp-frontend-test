@@ -1,0 +1,27 @@
+{
+  "name": "dwp-frontend-test",
+  "version": "1.0.0",
+  "description": "DWP frontend test",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas99baxter/dwp-frontend-test.git"
+  },
+  "author": "Tom Baxter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas99baxter/dwp-frontend-test/issues"
+  },
+  "homepage": "https://github.com/thomas99baxter/dwp-frontend-test#readme",
+  "devDependencies": {
+    "@dwp/eslint-config-base": "^7.0.0",
+    "eslint": "^8.52.0"
+  }
+}
