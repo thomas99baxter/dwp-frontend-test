@@ -1,0 +1,32 @@
+{
+  "name": "dwp-frontend-test",
+  "version": "1.0.0",
+  "description": "DWP frontend test",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc --reporter=lcov --reporter=text-summary mocha 'test/**/*.js' --recursive --timeout 60000 --exit",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas99baxter/dwp-frontend-test.git"
+  },
+  "author": "Tom Baxter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas99baxter/dwp-frontend-test/issues"
+  },
+  "homepage": "https://github.com/thomas99baxter/dwp-frontend-test#readme",
+  "devDependencies": {
+    "@dwp/eslint-config-base": "^7.0.0",
+    "chai": "^4.3.10",
+    "eslint": "^8.52.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^17.0.0"
+  }
+}
